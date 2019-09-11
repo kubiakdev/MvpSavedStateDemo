@@ -4,6 +4,7 @@ import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import javax.inject.Inject
 import io.reactivex.schedulers.Schedulers
+import javax.inject.Singleton
 
 class SchedulerProviderImpl @Inject constructor() : SchedulerProvider {
 

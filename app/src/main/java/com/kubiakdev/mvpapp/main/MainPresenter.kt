@@ -46,5 +46,6 @@ class MainPresenter @Inject constructor(
 
     override fun unSubscribe() {
         view = null
+        compositeDisposable.dispose()
     }
 }

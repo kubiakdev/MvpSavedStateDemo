@@ -30,9 +30,7 @@ class MainActivity : DaggerAppCompatActivity(), MainContract.View {
     }
 
     override fun displayNames(names: List<String>) {
-        names.forEach {
-            Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
-        }
+        names.forEach { Toast.makeText(this, it, Toast.LENGTH_SHORT).show() }
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
